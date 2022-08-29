@@ -1,0 +1,19 @@
+.last-chance{
+    margin: 128px 20ve 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    height: 308px;
+    background-image: url(../images/bg.png);
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+}
+.last-chance h2{
+    margin: 0 0 40px 0;
+    font-size: 2rem;
+}

@@ -1,0 +1,32 @@
+header{
+    background-color: var(--primary);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px 20vw;
+    align-items: center;
+    border-bottom: 10px solid var(--primaryDark);
+}
+header .logo{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.menu-item{
+    display: inline;
+    margin-left: 16px;
+}
+.menu ul{
+    text-align:right;
+}
+.menu-item a{
+    padding: 16px 32px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: opacity .3s;
+    color: var(--white); 
+}.menu-item a:hover{
+    opacity: 0.8;
+}
+.menu-item.fill a{
+    background-color: var(--primaryDark);
+}

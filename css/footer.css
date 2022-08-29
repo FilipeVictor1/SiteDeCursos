@@ -1,0 +1,25 @@
+footer{
+    margin-top: 128px;
+    width: 100%;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+}
+footer p{
+    margin: 0 0 16px 0;
+}
+footer .logo{
+    width: 80px;
+}
+footer .social{
+    width: 32px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+footer .links{
+    display: flex;
+    align-self: center;
+}

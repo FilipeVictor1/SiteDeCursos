@@ -1,0 +1,39 @@
+:root {
+    --primary: #6451a5;
+    --primaryLight: #cbbff2;
+    --primaryDark: #2d244a;
+    --black: #1b1924;
+    --error: #ba1b1b;
+    --errorLight: #ffdad4;
+    --errorDark: #410001;
+    --secondary: #6d6782;
+    --secondaryLight: #ffdad4;
+    --secondaryDark: #2d2a36;
+    --tertiary: #09bc8a;
+    --tertiaryLight: #86e7cb;
+    --tertiaryDark: #033d2d;
+    --white: #f3f3f3;
+    --grey: #807d7f;
+    --greyLight: #ccc8cb;
+    --greyDark: #4d4b4c;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--black);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+}
+.button{
+    padding: 16px 32px;
+    background: var(--primary);
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 8px;
+    transition: opacity 0.3s;
+}
+.butto:horver{
+    opacity: 0.9;
+}

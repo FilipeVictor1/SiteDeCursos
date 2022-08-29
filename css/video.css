@@ -1,0 +1,28 @@
+.video{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 20vw 128px;
+}
+.video-frame{
+    border-radius: 8px;
+    border: 8px solid var(--secondary);
+    width: 90%;
+    aspect-ratio: 16/9;
+}
+.video-text{
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.video-text h2{
+    margin: 0;
+}
+.video-text h2 span{
+    color: var(--tertiary);
+}
+.video-text p{
+    margin-top: 12px;
+    color: var(--grey);
+}

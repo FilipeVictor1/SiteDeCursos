@@ -1,0 +1,22 @@
+.cta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 128px 20vw;
+}
+.cta-image{
+    width: 90%;
+    min-width: 400px;
+}
+.cta-text{
+    margin-left: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cta-text h2{
+    font-size: 2rem;
+}
+.cta-text h2 span{
+    color: var(--tertiary);
+}
